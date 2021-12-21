@@ -40,4 +40,20 @@ Default rule is false and the value to be served for when targeting id disabled 
 <img width="1514" alt="LD2" src="https://user-images.githubusercontent.com/50951276/146879564-25f37f57-5e52-444c-a42c-f29c1e5c85a4.png">
 <img width="1510" alt="LD3" src="https://user-images.githubusercontent.com/50951276/146879586-624c812b-8b9c-435f-b314-c3522df999c4.png">
 
+3.QA experiment( ring rollouts)
+This is a feature flag for the scenario for ring rollouts management,create segment Alpha Users,Beta Users,QA and Stakeholders in the Segments sections respectively.
+
+I assume we need to look after 3 rings- Alpha Users, Beta Users, All Users. Initially, we would like Alpha User test feature 1 and Beta User test feature 2(which is an improved version of feature 1) and overtime feedback from Alpha User and Beta Users will provide evidence and confidence to All Users in main.
+<img width="1508" alt="LD4" src="https://user-images.githubusercontent.com/50951276/146890301-9f4a71c3-9e13-4772-9890-48cdba950b33.png">
+<img width="1517" alt="LD5" src="https://user-images.githubusercontent.com/50951276/146890313-ccbc4218-8dc4-43bd-929c-18f8772061f4.png">
+<img width="1517" alt="LD6" src="https://user-images.githubusercontent.com/50951276/146890324-4ec73939-476c-4211-93f8-236b4194aea0.png">
+<img width="1517" alt="LD7" src="https://user-images.githubusercontent.com/50951276/146890410-9083814d-6409-460c-856b-1e6fb58bff10.png">
+<img width="1517" alt="LD8" src="https://user-images.githubusercontent.com/50951276/146890444-362c6866-6452-4e50-b0a6-22e7e7755043.png">
+<img width="1519" alt="LD9" src="https://user-images.githubusercontent.com/50951276/146890453-cc82f099-2521-4e91-a474-dbb1899f395d.png">
+
+
+
+
+
+
 

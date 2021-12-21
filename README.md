@@ -8,7 +8,7 @@ This is a simple console application that demonstrates how LaunchDarkly's SDK wo
 This is a .NET Core application that can be built on any platform where .NET is available. I tested it in VS community version 2019 and 2022
 
 1. Edit `HelloDotNet/Hello.cs` and set the value of `SdkKey` to your LaunchDarkly  Server-side SDK key.and set `FeatureFlagKey` to the flag key.
-
+Example
 ```csharp
     public const string SdkKey = "sdk-9104f5a9-e5f3-4abd-a013-57736801777e";
 

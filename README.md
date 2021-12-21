@@ -29,3 +29,4 @@ This is a feature flag for the scenario opposite to the kill switch. I would lik
 
 I kept the default result to `false` to keep this feature off for all users and I want `false` to be returned, regardless of whether targeting is enabled or not.
 The following screenshot shows what this switch looks like where verbose logging is needed for Joe.
+<img width="1510" alt="LD1" src="https://user-images.githubusercontent.com/50951276/146875396-84770e3e-6216-4dfa-ac7f-dc17cb641890.png">

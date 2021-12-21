@@ -23,9 +23,9 @@ This is a .NET Core application that can be built on any platform where .NET is 
 
 You should see the message `"Feature flag '<flag key>' is <true/false> for this user"`.
 
-I evaluated 3 feature flags and setted up 8 feature flags under test environment in this exercise.(use LaunchDarkly .Net SDK)
+I evaluated 3 feature flags and set up 8 feature flags under the test environment in this exercise.(use LaunchDarkly .Net SDK)
 1. Verbose Logging
-This is feature flag for the scenario opposite to kill switch. I would like Joe Smith have the verbose logging feature enabled, this would enable QA team to more information about Joe's experience and understand the cause of problems for this individual.
+This is a feature flag for the scenario opposite to the kill switch. I would like Joe Smith to have the verbose logging feature enabled, this would enable QA team to more information about Joe's experience and understand the cause of problems for this individual.
 
 I kept the default result to `false` to keep this feature off for all users and I want `false` to be returned, regardless of whether targeting is enabled or not.
-The following screnshot shows what this switch look like where verbose logging is needed for Joe.
+The following screenshot shows what this switch looks like where verbose logging is needed for Joe.

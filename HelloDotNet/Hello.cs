@@ -7,10 +7,10 @@ namespace HelloDotNet
     class Hello
     {
         // Set SdkKey to your LaunchDarkly SDK key.
-        public const string SdkKey = "";
+        public const string SdkKey = "sdk-9104f5a9-e5f3-4abd-a013-57736801777e";
 
         // Set FeatureFlagKey to the feature flag key you want to evaluate.
-        public const string FeatureFlagKey = "my-boolean-flag";
+        public const string FeatureFlagKey = "verbose-logging";
 
         private static void ShowMessage(string s) {
             Console.WriteLine("*** " + s);
@@ -42,7 +42,7 @@ namespace HelloDotNet
             // Set up the user properties. This user should appear on your LaunchDarkly users dashboard
             // soon after you run the demo.
             var user = User.Builder("example-user-key")
-                .Name("Sandy")
+                .Name("Joe Smith").Email("Joe@Launchdarkly.com")
                 .Build();
 
             var flagValue = client.BoolVariation(FeatureFlagKey, user, false);

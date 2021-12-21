@@ -30,3 +30,14 @@ This is a feature flag for the scenario opposite to the kill switch. I would lik
 I kept the default result to `false` to keep this feature off for all users and I want `false` to be returned, regardless of whether targeting is enabled or not.
 The following screenshot shows what this switch looks like where verbose logging is needed for Joe.
 <img width="1510" alt="LD1" src="https://user-images.githubusercontent.com/50951276/146875396-84770e3e-6216-4dfa-ac7f-dc17cb641890.png">
+
+2. User Testing (Percentage Rollouts)
+This is a feature flag for the scenario to roll out to a small percentage of users, around 10% to gather user feedback to ensure the feature work as expected. then the feature would be roll out to around 50% for load and performance testing then gradually increase to 100%.
+
+I also would like to use the default key-value,this will rollout for each different user because the user has a unique key. Alternatively, if the feature is designed for a company. we also can see the email as an atttribute.
+Default rule is false and the value to be served for when targeting id disabled because we want to achieve the targeting percentage rule.
+
+<img width="1514" alt="LD2" src="https://user-images.githubusercontent.com/50951276/146879564-25f37f57-5e52-444c-a42c-f29c1e5c85a4.png">
+<img width="1510" alt="LD3" src="https://user-images.githubusercontent.com/50951276/146879586-624c812b-8b9c-435f-b314-c3522df999c4.png">
+
+

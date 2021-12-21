@@ -54,6 +54,10 @@ I assume we need to look after 3 rings- Alpha Users, Beta Users, All Users. Init
 
 
 
+I found the Experiments feature,Relay Proxy and Roles(Roles bases access control) are disabled in the trial. I would love to know more in the next chat!
+
+My feature flags and feature flags dashboards
+<img width="1515" alt="LD10" src="https://user-images.githubusercontent.com/50951276/146891370-88b19aee-ad28-4f29-9f72-3087ecbe70ca.png">
 
 
 
